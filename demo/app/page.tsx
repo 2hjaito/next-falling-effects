@@ -9,7 +9,18 @@ export default function Home() {
     <div className={styles.page}>
       <main className={styles.main}>
 
-        <FallingEffect type="tet-flowers" quantity={40} />
+        <FallingEffect
+          type="lixi-rain"
+          config={{
+            interval: 260,
+            wishes: [
+              "Chúc mừng năm mới 🎉",
+              "An khang thịnh vượng 🧧",
+              "Vạn sự như ý ✨",
+            ],
+          }}
+        />
+
         <Image
           className={styles.logo}
           src="/next.svg"

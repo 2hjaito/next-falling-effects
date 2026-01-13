@@ -1,7 +1,7 @@
 export type FallingEffectType =
   | "tet-flowers"
-  | "petals";
-
+  | "petals"
+  | "lixi-rain";
 export interface FallingEffectProps {
   type: FallingEffectType;
   quantity?: number;

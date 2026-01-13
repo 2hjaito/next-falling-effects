@@ -1,7 +1,9 @@
 import { tetFlowers } from "./tetFlowers";
 import { petals } from "./petals";
+import { lixiRain } from "./lixiRain";
 
-export const effectMap: Record<string, Function> = {
+export const effectMap = {
   "tet-flowers": tetFlowers,
   petals,
+  "lixi-rain": lixiRain,
 };
