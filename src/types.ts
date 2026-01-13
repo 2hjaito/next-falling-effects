@@ -1,4 +1,6 @@
-export type FallingEffectType = "tet-flowers";
+export type FallingEffectType =
+  | "tet-flowers"
+  | "petals";
 
 export interface FallingEffectProps {
   type: FallingEffectType;
