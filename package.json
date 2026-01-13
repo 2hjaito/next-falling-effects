@@ -1,0 +1,29 @@
+{
+  "name": "next-falling-effects",
+  "version": "0.1.0",
+  "description": "Seasonal falling effects for Next.js App Router",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.8",
+    "@types/react-dom": "^19.2.3",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "tsup": "^8.0.0",
+    "typescript": "^5.3.3"
+  },
+  "license": "MIT"
+}
